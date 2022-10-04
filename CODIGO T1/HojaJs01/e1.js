@@ -14,8 +14,7 @@ alert(`Numero hexadecimal: ${e}`);
 
 
 //Mostramos los tipos de las variables
-alert(`Tipo de a: ${typeof(a)} 
-
+alert(`Tipo de a: ${typeof(a)}
       Tipo de b:  ${typeof(b)} 
       Tipo de c:  ${typeof(c)}  
       Tipo de d:  ${typeof(d)} 
