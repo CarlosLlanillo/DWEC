@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="language" content="ES">
+        <meta charset="utf-8">
+        <meta name="application-name" content="Mario Pérez Urbaneja DAW216">
+        <meta name="description" content="Ejercicios. Páginas web HTML y hojas de estilo CSS.">
+        <meta name="author" content="Mario Pérez Urbaneja">
+        <title>Formulario 2º Parte Ejer2 HTML5 DAW216</title>
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h1>Ejemplo de range y Output</h1>
+        <form name="calculo" oninput="rango.value=parseInt(numRango.value)">
+            <label>Nivel de saturación
+                <input id="numRango" type="range" min="0" max="100" value="0"/>
+            </label>
+            <output name="rango" for="numRango">0</output>/100
+            <label><br><br>
+                <input type="number" pattern="[1-9]+[0-9]{8}"/>
+            </label>
+        </form>
+    </body>
+</html> 

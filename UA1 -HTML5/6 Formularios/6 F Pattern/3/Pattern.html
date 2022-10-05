@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>Ejempos Pattern</title>
+  <meta name="description" content="Ejemplo de formulario">
+  <meta name="keywords" content="HTML,text,css">
+  </head>
+
+<body>
+
+<header>
+<h1>Ejemplos de Pattern</h1>
+</header>
+
+<section>
+<form name="f1" oninput="total.value = parseInt(r.value)">
+  <fieldset>
+  <legend>Datos</legend>
+ <label>Num. binario 8 dígitos
+  <input type="text" name="binario" pattern="[01]{8}" required >
+  </label><br>
+  <label>Num. entero decimal entre 1 y 5 dígitos
+  <input type="text" name="decimal" pattern="[0-9]{1,5}" required >
+  </label><br>
+   <label>Código tres caracteres+ tres números
+  <input type="text" name="codigo" pattern="[A-Z-a-z]{3}[0-9]{3}" required >
+  </label>
+  </fieldset>
+ <label> Indique el nivel de facilidad al rellenar los datos anteriores:</label><br>
+  <input type="range" id="r" min="0" max="100" step="5"> <output name="total" for="r"></output>/100 <br>
+     
+  <input type="submit">      
+</form>
+</section>
+</body>
+</html>

@@ -1,0 +1,93 @@
+
+body {
+    background-color: rgb(43, 119, 235);
+}
+header {
+    background-color: rgb(65, 170, 255);
+    text-align: center;
+}
+nav {
+    background-color: azure;
+    text-align: left;
+}
+#section1 {
+    float:left;
+    background-color: rgb(63, 241, 101);
+    width: 50%;
+    height: 800px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+#section2 {
+    float: right;
+    background-color: rgb(104, 253, 136);
+    width: 49.6%;
+    height: 800px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+article {
+    background-color: rgb(252, 245, 147);
+}
+footer {
+    background-color: rgb(141, 163, 236);    
+}
+#piefinal {
+    text-align: right;
+}
+p {
+    background-color: rgb(248, 248, 248);
+}
+aside {
+    background-color: rgb(255, 249, 224);
+}
+#asidemitad{
+    float: right;
+    
+}
+img {
+    height: 200px;
+    width: 300px;
+}
+#logo {
+    height: 50px;
+    width: 50px;
+    float: left;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+table, td {
+    border: black 1px solid;
+}
+#celdaAzul1{
+    background-color: rgb(0, 132, 255);
+}
+#celdaAzul2{
+    background-color: rgb(0, 132, 255);
+}
+#celdaAzul3{
+    background-color: rgb(0, 132, 255);
+}
+#celdaAzul4{
+    background-color: rgb(0, 132, 255);
+}
+#celdaNaranja1{
+    background-color: orange;
+}
+#celdaNaranja2{
+    background-color: orange;
+}
+#celdaNaranja3{
+    background-color: orange;
+}
+#celdaNaranja4{
+    background-color: orange;
+}
+td {
+    text-align: center;
+}
+

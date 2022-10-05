@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario Comida</title>
+        <link rel="stylesheet" href="styleform.css">
+    </head>
+    <body>
+        <h1>Preferencias Gastronómicas</h1>
+        <p>Escriba los datos siguientes:</p>
+        <form name="Preferencia Comida">
+            <fieldset>
+                <legend>Comidas favoritas:</legend>
+                <label>
+                    <input type="checkbox" name="italiana">Italiana
+                </label>
+                <label>
+                    <input type="checkbox" name="francesa">Francesa
+                </label>
+                <label> 
+                    <input type="checkbox" name="española">Española
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Edad:</legend>
+                <label>  
+                    <input type="radio" name="edad" value="12-17">12-17
+                </label>
+                <label> 
+                    <input type="radio" name="edad" value="18-35">18-35
+                </label>
+                <label> 
+                    <input type="radio" name="edad" value="36-64">36-65
+                </label>
+                <label> 
+                    <input type="radio" name="edad" value="mas de 65">Mas de 65
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Platos que te gustan:</legend>
+                <label>
+                    <select  name="Platos" multiple>
+                        <optgroup label="Italiana">
+                            <option value="Ita1">Ita1</option>
+                            <option value="Ita2">Ita2</option>
+                            <option value="Ita3">Ita3</option>
+                        </optgroup>
+                        <optgroup label="Francesa">
+                            <option value="Fr1">Fr1</option>
+                            <option value="Fr2">Fr2</option>
+                            <option value="Fr3">Fr3</option>
+                        </optgroup>
+                        <optgroup label="Española">
+                            <option value="Es1">Es1</option>
+                            <option value="Es2">Es2</option>
+                            <option value="Es3">Es3</option>
+                        </optgroup>
+                      </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Enviar</legend>
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+        
+    </body>
+</html>

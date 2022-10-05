@@ -1,0 +1,102 @@
+header{
+    background-color: yellow;
+}
+section{
+    background-color: pink;
+}
+body{
+    background-color: white;
+}
+nav{
+    background-color: beige;
+}
+footer{
+    background-color: aquamarine;
+}
+p{
+    background-color: rgb(159, 109, 109);
+}
+article{
+    background-color: blueviolet;
+}
+a:hover {
+    color: orangered;
+  }
+  img.logo{
+    width: 100%;
+    height: 75px;
+    display: block;
+    background-color: white;
+  }
+h1.titulo_p{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+p.browser{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+header.top{
+    display: inline;
+}
+nav.t_nav{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+section.noticia{
+    width: 70%;
+    height: auto;
+    display: block;
+}
+aside.anun{
+    width: 20%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: block;
+}
+main.prin{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+h2,h3{
+    text-align: center;
+}
+article.art{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+section.list{
+    border: 1px solid #000;
+    width: 20%;
+    display: inline-block;
+    height: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+section.tiempo{
+    border: 1px solid #000;
+    display: flex;
+    width: 80%;
+    height: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+div.extra{
+    width: 100%;
+    display: flex;
+    height: auto;
+}
+img.l_sec{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: white;
+  }
+  header.h_img{
+    background-image: url("../img/aros.png");
+    color:white;
+  }

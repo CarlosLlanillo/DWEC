@@ -1,0 +1,156 @@
+body {
+    text-align: center;
+    background-color: #babfca;
+    border: 1px black solid;
+}
+
+.s1 {
+    width: 63%;
+    float: left;
+    background-color: #A2BBF5;
+    margin: 7px;
+    border: 1px black solid;
+    padding: 1px;
+    height: 740px;
+}
+
+.s2 {
+    width: 33%;
+    background-color: #A2BBF5;
+    float: right;
+    margin: 7px;
+    padding: 1px;
+    padding: 1px;
+    border: 1px black solid;
+    height: 740px;
+}
+
+.heder {
+    border: 1px black solid;
+    background-color: #5380E8;
+    margin: 7px;
+}
+
+.art1 {
+    border: 1px black solid;
+    background-color: #4D5975;
+    margin: 7px;
+}
+
+.p1 {
+    border: 1px black solid;
+    margin: 7px;
+    background-color: #466BC2;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#p2 {
+    border: 1px black solid;
+    margin: 7px;
+    float: left;
+    width: 60%;
+    background-color: #466BC2;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+
+#p3 {
+    border: 1px black solid;
+    margin: 7px;
+    margin-left: 61%;
+    background-color: rgb(5, 120, 173);
+
+}
+
+#fot1 {
+    margin: 780px 7px 7px 7px;
+    padding: 1%;
+    border: 1px black solid;
+    background-color: #565E6E;
+    color: white;
+}
+
+nav {
+    border: 1px black solid;
+    margin: 7px;
+    background-color: #c1d1f7 ;
+
+}
+
+#nav2 {
+    height: 500px;
+}
+
+.fot2 {
+    border: 1px black solid;
+    background-color: #565E6E;
+    margin: 7px;
+}
+
+#lista {
+    display: table;
+    
+}
+
+img {
+    height: 200px;
+    width: 350px;
+}
+
+
+#tabla1 {
+    margin: 8px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    border: 2px black solid;
+}
+
+td {
+    border: 2px black solid;
+}
+
+a {
+    color: #e09d00;
+}
+
+a:hover {
+    color: rgb(195, 0, 255);
+    font-size: 20px;
+}
+
+#tabla2 {
+    width: 80%;
+    margin: 3% 10% 0% 10%;
+    text-align: center;
+    border: 2px black solid;
+}
+
+.azul {
+    background-color: blue;
+    color: white;
+}
+
+.naranja {
+    background-color: orange;
+    color: white;
+}
+
+.logo {
+    margin-top: 15px;
+    height: 100px;
+    width: 170px;
+}
+
+h1 {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 40px;
+}
+
+#buscador {
+    margin: 0%;
+    width: 20%;
+}

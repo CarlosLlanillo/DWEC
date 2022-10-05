@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="language" content="ES">
+  <title>Formulario 1 - Música</title>
+  <link rel="stylesheet" href="estilos.css" type="text/css">
+</head>
+<body>
+<form action="form1.html" method="post">
+    <h1>MI VIDA ES LA MÚSICA</h1>
+    <h2>Por favor, rellene los datos...</h2>
+<fieldset>
+    <legend>Datos Personales</legend>
+    <label>Nombre:</label>
+	<input type="text" name="nombre" maxlength="40" placeholder="Introduzca su nombre" autofocus required>
+
+	<label>Telefono:</label>
+	<input type="tel" name="telefono" maxlength="12" pattern="[0-9]{9}" placeholder="Ej:999-999999" required>
+
+	<label>Dirección de correo:</label>
+	<input type="email" name="email" maxlength="30" placeholder="Introduzca su dirección de correo." required>
+    <br>
+	<label>Fecha:</label>
+	<input type="date" name="fechanac">
+
+</fieldset>
+
+<fieldset>
+        <legend>Grupos favoritos</legend>
+
+        <input list="Grupos">
+        <datalist id="Grupos">
+        <option value="Guns and Roses">
+        <option value="Beatles">
+        <option value="Nirvana">
+        <option value="AC/DC">
+        <option value="XYZ">
+        </datalist>
+</fieldset>
+
+<fieldset>
+        <legend>Votación general de grupos</legend>
+        <label>Guns and Roses</label>
+        <input type="number" min=1 max=10><br>
+        <label>Beatles</label>
+        <input type="number" min=1 max=10><br>
+        <label>Nirvana</label>
+        <input type="number" min=1 max=10><br>
+        <label>AC/DC</label>
+        <input type="number" min=1 max=10><br>
+        <label>XYZ</label>
+        <input type="number" min=1 max=10><br>
+</fieldset>
+
+<fieldset>
+        <legend>Subir fichero</legend>
+        <input type="file" name="fichero" multiple>
+</fieldset>
+
+    <input type="submit" value="Enviar información">
+</form>
+</body>
+</html>

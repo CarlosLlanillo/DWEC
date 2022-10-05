@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="Practica8.css">
+  <title>Practica8</title>
+</head>
+
+<body>
+    <form name="suma" oninput="resultado.value = (parseInt(horas.value) * parseInt(precio.value)) + parseInt(suplemento.value)">
+      <h1>EJEMPLO HORAS EXTRAS</h1>
+
+      <label>Numero de horas extras</label>
+      <input id="horas" type="number" min="1" max="20"><br>
+
+      <label>Precio hora €</label>
+      <input id="precio" type="number" min="1"><br>
+
+      <label>Suplemento</label>
+      <input id="suplemento" type="number" min="0.20"><br>
+
+      <label>Total € </label><output name="resultado" for="horas precio suplemento"></output>
+    </form>
+</body>

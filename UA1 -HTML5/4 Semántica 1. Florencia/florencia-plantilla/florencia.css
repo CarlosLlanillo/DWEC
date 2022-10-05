@@ -1,0 +1,43 @@
+body {
+    background-color: grey;
+    font-family: serif;
+    font-size: 1.5em;
+    text-align: justify;
+  }
+  h1 {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    text-transform: uppercase;
+  }
+  h2 {
+    clear: both;
+    background-color: hsl(0, 0%, 31%);
+    color: white;
+    border-radius: 25px;
+    border: 2px solid black;
+    text-align: center;
+  }
+  img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  address {
+    clear: both;
+    text-align: center;
+    font-size:0.5em;
+    font-style: oblique;
+  }
+  #florencia{
+    background-color: hsl(0, 0%, 31%);
+    color: white;
+    border-radius: 25px;
+    border: 2px solid black;
+    text-align: center;
+  }
+  article{
+    border: 2px solid black;
+    border-radius: 25px;
+    text-align: left;
+    height: 420;
+  }

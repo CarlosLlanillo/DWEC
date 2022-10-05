@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html LANG="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Hugo, hugo.garcialopez@iesmiguelherrero.com"/>
+    <meta name="description" content="Ejercicio formularios"/>
+    <title>Formularios.</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+      <main>
+          <form name="formulario" method="post">
+              <h1>Mi VIDA ES LA MUSICA</h1>
+              <h2>Por favor, rellene los datos...</h2>
+                <fieldset>
+                    <legend>Datos personales.</legend>
+                    <label>Nombre:
+                        <input maxlength="40" autofocus type="text" name="nombre" placeholder="Introduzca su nombre." required>
+                    </label>
+                    <label>Telefono:
+                        <input type="tel" name="telefono" placeholder=" 999-999999." required pattern="[0-9]{9}">
+                    </label>
+                    <label>Direccion de correo:
+                        <input maxlength="30" type="email" name="email" placeholder="Introduzca su dirección de correo." required>
+                    </label>
+                    <label>Fecha:
+                        <input type="date" name="fecha" required>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend class="favoritos">Grupos favoritos.</legend>
+                    <input type="text" list="items">
+                    <datalist id="items">
+                        <option value="Hinchu-Boys">Hinchu-Boys.</option>
+                        <option value="Flor de piedra">Flor de piedra.</option>
+                        <option value="Black-Sabbath">Black-Sabbath.</option>
+                        <option value="Augustus Pablo">Augustus Pablo.</option>
+                        <option value="Zapp">Zapp.</option>
+                    </datalist>
+                </fieldset>
+                <fieldset class="votacion">
+                    <legend>Votación general de grupos.</legend>
+                    <label>Hinchu-Boys:
+                        <input   type="number" name="hinchu" required min="1" max="10">
+                    </label>
+                    <label>Flor de piedra:
+                        <input   type="number" name="flor" required min="1" max="10">
+                    </label>
+                    <label>Black-Sabbath:
+                        <input   type="number" name="black" required min="1" max="10">
+                    </label>
+                    <label>Augustus Pablo:
+                        <input   type="number" name="pablo" required min="1" max="10">
+                    </label>
+                    <label>Zapp:
+                        <input   type="number" name="zapp" required min="1" max="10">
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Subir fichero.</legend>
+                    <p>Elija uno de los archivos de su grupo favorito para incluirlos en nuestra base de datos.</p>
+                    <input type="file" name="adjunto" accept=".mp3" multiple>                    
+                </fieldset>
+                <input type="submit" name="b_enviar" value="Enviar formulario.">
+          </form>
+      </main>
+  </body>
+</html>
