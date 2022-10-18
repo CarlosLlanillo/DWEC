@@ -9,14 +9,14 @@ function promptInt(pregunta = "") {
   return num;
 }
 
-function pregunta15Duplicado() {
+function contarPreguntasNumericas() {
   let num = promptInt(`Introduce un numero`);
   if (num !== 30) {
     alert(`Incorrecto`);
-    return confirm(`¿Quieres volver a intentarlo?`) && pregunta15Duplicado();
+    return confirm(`¿Quieres volver a intentarlo?`) && contarPreguntasNumericas();
   }
 
   alert(`Correcto`);
 }
 
-pregunta15Duplicado();
+contarPreguntasNumericas();

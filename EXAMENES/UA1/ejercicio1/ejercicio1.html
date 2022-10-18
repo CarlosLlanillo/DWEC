@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Carlos Llanillo - Ej1</title>
+  </head>
+  <body>
+    <header>
+      <h1>Presupuesto para placas solares</h1>
+    </header>
+    <section>
+      <form
+        name="Presupuesto placas solares"
+        oninput="resultado.value = parseInt(area.value / 12 * 40)"
+      >
+        <div class="grupo">
+          <fieldset>
+            <legend>Elige tu tipo de instalación:</legend>
+            <label>
+              <input
+                required
+                type="radio"
+                name="tipoIntalacion"
+                value="piso"
+              />Piso
+            </label>
+            <label>
+              <input
+                required
+                type="radio"
+                name="tipoIntalacion"
+                value="casa"
+              />Casa
+            </label>
+            <label>
+              <input
+                required
+                type="radio"
+                name="tipoIntalacion"
+                value="aislacion"
+              />Aislacion de la red
+            </label>
+            <label>
+              <input
+                required
+                type="radio"
+                name="tipoIntalacion"
+                value="negocio"
+              />Negocio
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Elige tu tipo de almacenamiento de energía:</legend>
+            <label>
+              <input
+                required
+                type="radio"
+                name="tipoAlmacenamiento"
+                value="sin"
+              />Sin almacenamiento
+            </label>
+            <label>
+              <input
+                required
+                type="radio"
+                name="tipoAlmacenamiento"
+                value="con"
+              />Con almacenamiento
+            </label>
+          </fieldset>
+        </div>
+        <div class="grupo">
+          <fieldset>
+            <legend>¿Cuál es el área de tu tejado?</legend>
+            <label>
+              <p>Escribe el área que tiene tu tejado</p>
+              <input
+                required
+                min="0"
+                type="number"
+                id="area"
+                name="area"
+                value="1"
+              />
+              <p>m2</p>
+            </label>
+          </fieldset>
+        </div>
+
+        <div class="grupo">
+          <fieldset>
+            <legend>Introduce la inclinacion de tu tejado:</legend>
+            <label>
+              <input required type="radio" name="inclinacion" value="0" />0º
+            </label>
+            <label>
+              <input required type="radio" name="inclinacion" value="10" />10º
+            </label>
+            <label>
+              <input required type="radio" name="inclinacion" value="25" />25º
+            </label>
+            <label>
+              <input required type="radio" name="inclinacion" value="15" />15º
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Introduce tu consumo mensual en kWh:</legend>
+            <input required type="number" name="consumoMensual" />
+            <label>
+              <input
+                required
+                type="radio"
+                name="tipoConsumo"
+                value="monofase"
+              />Monofasica
+            </label>
+            <label>
+              <input
+                required
+                type="radio"
+                name="tipoConsumo"
+                value="trifase"
+              />Trifasica
+            </label>
+          </fieldset>
+        </div>
+
+        <div class="submit">
+          <div>
+            <label>Total € </label><output name="resultado" for="area"></output>
+          </div>
+          <div class=""><input type="submit" value="Enviar" /></div>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
